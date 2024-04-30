@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Region } from '../../interfaces/region';
+// import { Region } from '../../interfaces/region';
 
 @Component({
   selector: 'region-table',
@@ -11,6 +11,6 @@ import { Region } from '../../interfaces/region';
   ]
 })
 export class RegionTableComponent {
-  @Input()
-  public regions: Region[]  = [];
+  // @Input()
+  // public regions: Region[]  = [];
 }
